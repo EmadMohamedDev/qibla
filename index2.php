@@ -110,9 +110,19 @@
         var clong = klong;
         function initialize() {
         var mapCanvas = document.getElementById('map-canvas');
+        var grayStyles = [
+        {
+          featureType: "all",
+          stylers: [
+            { saturation: -90 },
+            { lightness: 50 }
+          ]
+        },
+      ];
         var mapOptions = {
             center: new google.maps.LatLng(clat , clong),
             zoom: 3,
+            //styles: grayStyles,
             //mapTypeId: google.maps.MapTypeId.SATELLITE
         }
         var map = new google.maps.Map(mapCanvas, mapOptions);
