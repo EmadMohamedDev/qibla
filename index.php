@@ -9,7 +9,7 @@
       <ul>
         <li> <a href="index1.php"> demo 1</a> </li>
         <li> <a href="index2.php"> demo 2</a> </li>
-        <li> <a href="index2.php"> demo 3</a> </li>
+        <li> <a href="index3.php"> demo 3</a> </li>
       </ul>
     </nav>
   </body>
