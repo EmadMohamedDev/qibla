@@ -5,8 +5,6 @@
     <title></title>
   </head>
   <body>
-    <iframe src="https://qiblafinder.withgoogle.com/intl/en/finder/ar" width="100%" height="700px"></iframe>
-    <a href="https://qiblafinder.withgoogle.com/intl/en/finder/ar">qible</a>
+    <iframe src="https://qiblafinder.withgoogle.com" width="100%" height="700px"></iframe>
   </body>
-
 </html>
